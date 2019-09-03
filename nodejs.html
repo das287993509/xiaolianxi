@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<script src="js/jquery.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="UTF-8"></script>
+		<style type="text/css">
+			img {
+				position: relative;
+				top: -14px;
+				padding: 0px 25px;
+			}
+			.glyphicon{
+				display: inline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand"><img src="he.jpg" /></a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right pull-left">
+						<li class="active">
+							<a href="">商品管理</a>
+						</li>
+						<li class="active">
+							<a href="">系统设置</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="">欢迎您，admin</a>
+						</li>
+						<li>
+							<a href="">安全退出</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<a href="" class="list-group-item active ">商品管理</a>
+					<a href="" class="list-group-item">商品管理</a>
+					<a href="" class="list-group-item">商品管理</a>
+					<a href="" class="list-group-item">商品管理</a>
+					<a href="" class="list-group-item active ">商品管理</a>
+					<a href="" class="list-group-item">商品管理</a>
+					<a href="" class="list-group-item">商品管理</a>
+					<a href="" class="list-group-item">商品管理</a>
+				</div>
+				<div class="col-sm-10">
+					<ul class="breadcrumb">
+						<li>
+							<a href="">商品管理</a>
+						</li>
+						<li>
+							<a href="">商品管理</a>
+						</li>
+					</ul>
+					<div class="panel panel-default">
+						<div class="panel-heading">搜索</div>
+						<div class="panel-body">
+							<form role="form" class="form-inline" action="">
+								<div class="form-group">
+									<label for="">名称</label>
+									<input type="text" placeholder="请输入名称" class="form-control" />
+									<button  type="submit" class="btn btn-default">开始搜索</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+					<div class="table">
+						<table class="table  table-striped">
+							<thead>
+								<tr>
+									<th>编号</th>
+									<th>图标</th>
+									<th>名称</th>
+									<th class="text-center">价格</th>
+									<th class="text-center">邮费</th>
+									<th class="text-center">操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td><span class="glyphicon glyphicon-cloud"></span></td>
+									<td>你的背包</td>
+									<td class="text-center">250元</td>
+									<td class="text-center">10元</td>
+									<td class="text-center">
+										<button class=" btn btn-primary aaa">修改</button>
+										<button class=" btn btn-danger aaa">删除</button>
+									</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td><span class="glyphicon glyphicon-cloud"></span></td>
+									<td>我的背包</td>
+									<td class="text-center">251元</td>
+									<td class="text-center">10元</td>
+									<td class="text-center">
+										<button class=" btn btn-primary aaa">修改</button>
+										<button class=" btn btn-danger aaa">删除</button>
+									</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td><span class="glyphicon glyphicon-cloud"></span></td>
+									<td>他的背包</td>
+									<td class="text-center">252元</td>
+									<td class="text-center">10元</td>
+									<td class="text-center">
+										<button class=" btn btn-primary aaa ">修改</button>
+										<button class=" btn btn-danger aaa">删除</button>
+									</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td><span class="glyphicon glyphicon-cloud"></span></td>
+									<td>你的背包</td>
+									<td class="text-center">250元</td>
+									<td class="text-center">10元</td>
+									<td class="text-center">
+										<button class=" btn btn-primary aaa">修改</button>
+										<button class=" btn btn-danger aaa">删除</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(".aaa").click(function(){
+				window.location.href="nodejs(2).html"
+			})
+		</script>
+	</body>
+
+</html>
